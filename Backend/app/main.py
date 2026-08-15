@@ -26,3 +26,14 @@ async def test_db():
         "status": "Connected Successfully",
         "collections": collections,
     }
+
+
+app = FastAPI()
+
+
+@app.get("/health")
+async def health():
+    return {
+        "status": "ok",
+        "message": "FinPilotAI backend is running"
+    }

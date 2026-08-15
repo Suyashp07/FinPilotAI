@@ -31,10 +31,10 @@ async def test_db():
 app = FastAPI()
 #suyash pandey
 
-@app.get("/health")
-async def health():
-    return {
-        "status": "ok",
-        "message": "FinPilotAI backend is running",
-        "description": "Working on the backend of FinPilotAI, a financial management application that helps users track their expenses, manage investments, and make informed financial decisions. The backend is built using FastAPI and MongoDB, providing a robust and scalable solution for handling user data and transactions."
-    }
+# @app.get("/health")
+# async def health():
+#     return {
+#         "status": "ok",
+#         "message": "FinPilotAI backend is running",
+#         "description": "Working on the backend of FinPilotAI, a financial management application that helps users track their expenses, manage investments, and make informed financial decisions. The backend is built using FastAPI and MongoDB, providing a robust and scalable solution for handling user data and transactions."
+#     }

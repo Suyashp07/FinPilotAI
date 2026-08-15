@@ -1,0 +1,50 @@
+# =========================================================
+# Backend
+# =========================================================
+
+Backend/.env
+Backend/venv/
+
+# Python generated files
+**/__pycache__/
+*.pyc
+*.pyo
+
+# =========================================================
+# Flutter / Dart
+# =========================================================
+
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+
+# Environment files
+.env
+.env.*
+
+# Android
+.gradle/
+android/.gradle/
+android/local.properties
+android/key.properties
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# macOS
+macos/Pods/
+macos/.symlinks/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

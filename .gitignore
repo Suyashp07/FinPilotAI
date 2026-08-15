@@ -1,0 +1,25 @@
+# Environment files
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Flutter / Dart
+.dart_tool/
+build/
+
+# Android
+.gradle/
+.kotlin/
+android/.gradle/
+android/.kotlin/
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
